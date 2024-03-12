@@ -5,8 +5,9 @@ export const createUser = async (formData: any) => {
         await prisma.userData.create({
             data: formData
         });
+        console.log('created')
     } catch (e: any) {
-        console.log(e.message)
+        console.log(e)
         console.log("error aya h ")
 
     }
@@ -18,7 +19,6 @@ export const getUser = async () => {
         return data
     } catch (e: any) {
         console.log(e.message)
-        console.log("error aya h ")
     }
 
 
