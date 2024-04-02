@@ -3,6 +3,7 @@ import { Form } from "@remix-run/react";
 import type { ActionFunction, MetaFunction } from "@vercel/remix";
 import { createUser } from "~/utils/user.server";
 
+
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
@@ -43,62 +44,62 @@ export default function Index() {
           <input type="text" name="providerName" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Customer Name:</label>
           <input type="text" name="customerName" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Contact Number:</label>
           <input type="text" name="contactNumber" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Associated Phone Number:</label>
           <input type="text" name="associatedPhoneNumber" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Service Address:</label>
           <input type="text" name="serviceAddress" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Bill Amount:</label>
           <input type="text" name="billAmount" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Card Number:</label>
           <input type="text" name="cardNumber" />
-        </div>
+          <div>
+          </div>
 
-        <div style={{ marginBottom: '15px' }}>
-          <label style={{ marginRight: '10px' }}>Expiration:</label>
+=======
           <input type="text" name="expiration" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>CVV:</label>
           <input type="text" name="cvv" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Billing Address:</label>
           <input type="text" name="billingAddress" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Email:</label>
           <input type="text" name="email" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Sales Agent Name:</label>
           <input type="text" name="salesAgentName" />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px', textAlign: "center" }}>
           <label style={{ marginRight: '10px' }}>Categories:</label>
           <input type="text" name="categories" />
         </div>
